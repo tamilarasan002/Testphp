@@ -12,7 +12,7 @@ ENV DB_HOST=34.29.63.122
 ENV DB_PORT=5432
 ENV DB_NAME=basicdetails
 ENV DB_USER=postgres
-ENV DB_PASSWORD=your_db_password
+ENV DB_PASSWORD=12qwaszx
 
 # Expose port 80 for the web server
 EXPOSE 80
