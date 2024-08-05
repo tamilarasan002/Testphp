@@ -15,7 +15,7 @@ ENV DB_USER=postgres
 ENV DB_PASSWORD=12qwaszx
 
 # Expose port 80 for the web server
-EXPOSE 8080
+EXPOSE 80
 
 # Command to run the Apache server
 CMD ["apache2-foreground"]
