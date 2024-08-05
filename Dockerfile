@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y libpq-dev && docker-php-ext-install pgs
 COPY . /var/www/html/
 
 # Set environment variables for PostgreSQL
-ENV DB_HOST=34.174.37.121
+ENV DB_HOST=studious-nature-396016:us-south1:admin
 ENV DB_PORT=5432
 ENV DB_NAME=basicdetails
 ENV DB_USER=postgres
